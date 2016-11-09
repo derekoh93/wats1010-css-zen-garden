@@ -12,12 +12,13 @@
 html {
 	margin: 0;
 	padding: 0;
+	background: url(../img/seigaiha.png);
 	}
 body { 
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #555753; 
-	background: #fff url(blossoms.jpg) no-repeat bottom right; 
+	background: #fff url(../img/seigaiha.png); 
 	margin: 0; 
 	padding: 0;
 	}
@@ -44,7 +45,11 @@ a:visited {
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
 	color: #9685BA;
+	background-color: yellow;
 	}
+a:focus{
+	color: blue;
+}
 abbr {
 	border-bottom: none;
 	}
@@ -53,9 +58,10 @@ abbr {
 /* specific divs */
 .page-wrapper { 
 	background: url(zen-bg.jpg) no-repeat top left; 
-	padding: 0 175px 0 110px;  
-	margin: 0; 
+	padding: 0px 175px 0px 110px;  
+	margin-left: 353.5px;
 	position: relative;
+	width: 850px;
 	}
 
 .intro { 
@@ -63,44 +69,31 @@ abbr {
 	width: 100%;
 	}
 
-header h1 { 
-	background: transparent url(h1.gif) no-repeat top left;
-	margin-top: 10px;
-	display: block;
-	width: 219px;
-	height: 87px;
-	float: left;
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
+header { 
+postion: center;
+	width: 575px;
+	height: 245px;
+	margin: 0 auto;
+	background: url(../img/header.jpg) no-repeat center;
 	}
-header h2 { 
-	background: transparent url(h2.gif) no-repeat top left; 
-	margin-top: 58px; 
-	margin-bottom: 40px; 
-	width: 200px; 
-	height: 18px; 
-	float: right;
+header h1, h2{ 
+display: none;}
 
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
 header {
 	padding-top: 20px;
 	height: 87px;
 }
 
-.summary {
-	clear: both; 
-	margin: 20px 20px 20px 10px; 
-	width: 160px; 
-	float: left;
+.summary p:first-child {
+	font: italic 1.1em/2.2 georgia;
+	text-align: center;
+	margin-top: 25px;
 	}
-.summary p {
+.summary p:last-child {
 	font: italic 1.1em/2.2 georgia; 
 	text-align: center;
+	border: solid 1px black;
+	
 	}
 
 .preamble {
