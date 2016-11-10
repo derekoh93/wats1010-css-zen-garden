@@ -15,8 +15,8 @@ html {
 	background: url(../img/seigaiha.png);
 	}
 body { 
-	font: 75% Arial, sans-serif;
-	line-height: 1.88889;
+	font: 100% Arial, sans-serif;
+	line-height: 1.1;
 	background: #fff url(../img/seigaiha.png); 
 	margin: 0; 
 	padding: 0;
@@ -31,11 +31,12 @@ h3 {
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
 	color: #7D775C;
+	font-weight: bold;
 	}
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #B7A5DF;
+	color: 	#4169E1;
 	}
 a:visited { 
 	font-weight: bold; 
@@ -169,10 +170,10 @@ footer a:link, footer a:visited {
 	list-style-type: none;
 	}
 .sidebar li a:link {
-	color: #988F5E;
+	color: #6A5ACD;
 	}
 .sidebar li a:visited {
-	color: #B3AE94;
+	color: #6A5ACD;
 	}
 
 .extra1 {
@@ -183,3 +184,6 @@ footer a:link, footer a:visited {
 	height: 111px;
 	
 	}
+footer{
+	background: url(../img/paint-banner.png) no-repeat center;
+}
