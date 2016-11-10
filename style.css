@@ -12,12 +12,12 @@ e
 html {
 	margin: 0;
 	padding: 0;
-	background: url("/img/background.jpg");
+	background: url("background.jpg");
 	}
 body { 
 	font: 100% Arial, sans-serif;
 	line-height: 1.1;
-	background: #fff url("/img/background.jpg") no-repeat;
+	background: #fff url("../img/background.jpg") no-repeat;
 	background-size: 5000px,5000px;
 	margin: 0; 
 	padding: 0;
