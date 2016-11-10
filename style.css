@@ -12,12 +12,13 @@
 html {
 	margin: 0;
 	padding: 0;
-	background: url(../img/seigaiha.png);
+	background: url(../img/background.png);
 	}
 body { 
 	font: 100% Arial, sans-serif;
 	line-height: 1.1;
-	background: #fff url(../img/seigaiha.png); 
+	background: #fff url(../img/background.png) no-repeat;
+	background-size: 5000px,5000px;
 	margin: 0; 
 	padding: 0;
 	}
@@ -74,7 +75,7 @@ postion: center;
 	width: 575px;
 	height: 245px;
 	margin: 0 auto;
-	background: url(../img/header.jpg) no-repeat center;
+	background: url(../img/header.png) no-repeat center;
 	padding-top: 20px;
 	height: 87px;
 	  -webkit-transition: width 1s, height 1s, background-color 1s, -webkit-transform 2s;
@@ -95,6 +96,7 @@ display: none;}
 	font: italic 1.1em/2.2 Arial;
 	text-align: center;
 	margin-top: 25px;
+	color: black;
 	}
 .summary p:last-child {
 	font: italic 1.1em/2.2 Arial; 
